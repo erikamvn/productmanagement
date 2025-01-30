@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`deve renderizar corretamente e coincidir com o snapshot 1`] = `
+<DocumentFragment>
+  <section
+    aria-atomic="false"
+    aria-label="Notifications Alt+T"
+    aria-live="polite"
+    aria-relevant="additions text"
+    class="Toastify"
+  />
+   
+  <div
+    class="max-w-lg mx-auto mt-10 p-6 bg-white shadow-md rounded-lg"
+  >
+    <h2
+      class="text-2xl font-semibold text-center mb-6"
+    >
+      Cadastrar Produto
+    </h2>
+    <form
+      class="space-y-4"
+    >
+      <div>
+        <label
+          class="block text-sm font-medium text-gray-700"
+          for="nome"
+        >
+          Nome do Produto
+        </label>
+        <input
+          aria-label="Nome do Produto"
+          class="w-full p-3 border rounded-md border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          id="nome"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        <label
+          class="block text-sm font-medium text-gray-700"
+          for="categoria"
+        >
+          Categoria
+        </label>
+        <input
+          aria-label="Categoria"
+          class="w-full p-3 border rounded-md border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          id="categoria"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        <label
+          class="block text-sm font-medium text-gray-700"
+          for="preco"
+        >
+          Preço
+        </label>
+        <input
+          aria-label="Preço"
+          class="w-full p-3 border rounded-md border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          id="preco"
+          min="0"
+          required=""
+          step="0.01"
+          type="number"
+          value="0"
+        />
+      </div>
+      <div>
+        <label
+          class="block text-sm font-medium text-gray-700"
+          for="descricao"
+        >
+          Descrição
+        </label>
+        <textarea
+          aria-label="Descrição"
+          class="w-full p-3 border rounded-md border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          id="descricao"
+          required=""
+          rows="4"
+        />
+      </div>
+      <div>
+        <label
+          class="block text-sm font-medium text-gray-700"
+          for="imagem"
+        >
+          URL da Imagem
+        </label>
+        <input
+          aria-label="URL da Imagem"
+          class="w-full p-3 border rounded-md border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          id="imagem"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="flex justify-center gap-8"
+      >
+        <button
+          aria-label="Cancelar e voltar"
+          class="w-24 bg-gray-300 px-4 py-2 rounded disabled:opacity-50"
+          type="button"
+        >
+          Cancelar
+        </button>
+        <button
+          aria-label="Salvar o produto"
+          class="w-24 bg-blue-500 text-white p-3 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 opacity-50"
+          disabled=""
+          type="submit"
+        >
+          Salvar
+        </button>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;
